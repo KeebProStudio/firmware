@@ -42,6 +42,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VIA_EEPROM_ALLOW_RESET
 #define VIA_BOOTLOADER_JUMP
 
+#define MATRIX_ROW_PINS { 16,15,14,13,12,11 }
+#define MATRIX_COL_PINS { 21,20,19,18,17,22,23,24,25,0,1,2,3,4,5 }
+
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
